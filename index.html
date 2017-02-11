@@ -34,11 +34,12 @@
 		}
 		return a;
 	}
-	function init(grid){
+	function init(grid,ans){
 		//resting divJsword 
 		$("#divJsword").html("");
 		$("#divJsword").jsword({
-			gridMask : grid
+			gridMask : grid,
+			gridAns:ans
 		});
 	}
 $(function () {
@@ -51,11 +52,31 @@ $(function () {
 				'@@@@@ @@@@',
 				'          ',
 				'@@@@@ @@@@',
-				'@@@@      '];	
+				'@@@@      ',
+				'@@@@@ @@@@'];	
+    var ans = ["pune",
+             "bangalore",
+             "hyderabad",
+             "delhi",
+             "mumbai",
+             "kashmir"
+            ];
+	grid=['@@@@ @@@@@',
+		  '@@@@ @@@@@',
+		  '@@@@ @ @@@',
+		  '@         ',
+		  '@@@@@@ @@ ',
+		  '@@@@@@ @@ ',
+		  '@@      @ ',
+		  '@@@@@@ @@ ',
+		  '@@@@@@ @@@',
+		  '       @@@',
+		  '@@@@@@ @@@'
+		  ]
 	$('#reset').click(function(){
-		init(grid);
+		init(grid,ans);
 	});
-	init(grid);
+	init(grid,ans);
 });
  </script>
  </body>

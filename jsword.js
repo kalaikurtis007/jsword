@@ -131,7 +131,7 @@
 					if(highlightedTiles.length>0){
 						
 					}else{
-						alert();
+						alert(options.gridAns);
 					}
 				});
 			},
