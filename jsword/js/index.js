@@ -1,5 +1,5 @@
 var grid_arr = [{
-		grid : [
+		grid: [
 			['0', '0', '0', '0', '1', '0', '0', '0', '0', '0'],
 			['0', '0', '0', '0', '1', '0', '0', '0', '0', '0'],
 			['0', '0', '0', '0', '1', '0', '2', '0', '0', '0'],
@@ -12,14 +12,14 @@ var grid_arr = [{
 			['6', '6', '6', '6', '6', '6', '2,6', '0', '0', '0'],
 			['0', '0', '0', '0', '0', '0', '2', '0', '0', '0']
 		],
-		ans : ["pune",
+		ans: ["pune",
 			"bangalore",
 			"hyderabad",
 			"delhi",
 			"mumbai",
 			"kashmir"
 		],
-		clues : ["Education Hub",
+		clues: ["Education Hub",
 			"Information Technology Hub",
 			"Cultural Hub",
 			"Capital of India",
@@ -27,7 +27,7 @@ var grid_arr = [{
 			"Saffron region"
 		]
 	}, {
-		grid : [
+		grid: [
 			['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', ],
 			['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', ],
 			['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '0', '1', '0', ],
@@ -44,7 +44,7 @@ var grid_arr = [{
 			['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', ],
 			['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', ]
 		],
-		ans : ["pluto",
+		ans: ["pluto",
 			"saturn",
 			"earth",
 			"vunus",
@@ -54,7 +54,7 @@ var grid_arr = [{
 			"mars",
 			"mercury"
 		],
-		clues : ["No longer a officially considerd a planet",
+		clues: ["No longer a officially considerd a planet",
 			"Famous for its rings",
 			"Takes approximately 365 days to rotate around the sun",
 			"Closest planet to Earth",
@@ -64,11 +64,11 @@ var grid_arr = [{
 			"Known as the 'Red Planet'",
 			"Closest planet to the sun"]
 	}, {
-		grid : [
+		grid: [
 			['0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0'],
 			['2', '0', '0', '0', '0', '0', '3', '1,3', '0', '0', '0', '0', '0', '0', '0'],
 			['2', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0'],
-			['2,4', '4', '4,5','5', '5', '5', '5', '1,5', '5', '0', '0', '0', '0', '0', '0'],
+			['2,4', '4', '4,5', '5', '5', '5', '5', '1,5', '5', '0', '0', '0', '0', '0', '0'],
 			['0', '0', '5', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0'],
 			['0', '0', '5', '0', '0', '0', '0', '1', '0', '0', '6', '0', '0', '0', '0'],
 			['0', '0', '5', '0', '7', '7', '7', '1,7', '7', '7', '6,7', '7', '7', '0', '0'],
@@ -81,8 +81,8 @@ var grid_arr = [{
 			['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'],
 			['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
 		],
-		ans : ["homework", "nap", "no", "popsicles", "pants", "balloon", "shirttags", "microwave"],
-		clues : ["Thing that makes Daddy feel dump",
+		ans: ["homework", "nap", "no", "popsicles", "pants", "balloon", "shirttags", "microwave"],
+		clues: ["Thing that makes Daddy feel dump",
 			"Not goona happen",
 			"Worst word in the English language",
 			"Pure, frosty happiness",
@@ -91,7 +91,43 @@ var grid_arr = [{
 			"Like razor blades, only worse",
 			"Where dinner comes from even when mom calls it 'homemade'"
 		]
-	}
+	}, {
+		grid: [
+				['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0'],
+	['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0'],
+	['0', '0', '0', '0', '0', '0', '0', '0', '2', '0', '1', '0'],
+	['0', '0', '0', '0', '0', '0', '0', '3', '2,3', '3', '1,3', '3'],
+	['0', '0', '0', '0', '0', '0', '0', '0', '2', '0', '1', '0'],
+	['0', '0', '0', '4', '0', '5', '0', '0', '2', '0', '0', '0'],
+	['0', '0', '0', '4', '0', '5', '0', '0', '2', '0', '0', '0'],
+	['0', '0', '0', '4,6', '6', '5,6', '6', '6,7', '2', '6', '0', '0'],
+	['0', '0', '0', '4', '0', '5', '0', '7', '0', '0', '0', '0'],
+	['8', '8', '8', '4,8', '0', '5', '0', '7', '0', '0', '0', '0'],
+	['0', '0', '0', '0', '0', '5', '0', '7', '0', '0', '0', '0'],
+	['0', '0', '0', '9', '9', '5,9', '9', '7,9', '9', '9', '0', '0'],
+	['0', '0', '0', '0', '0', '0', '0', '7', '0', '0', '0', '0'],
+
+],
+		ans: ["pluto",
+		   "saturn",
+		   "earth",
+		   "vunus",
+		   "jupiter",
+		   "neptune",
+		   "uranus",
+		   "mars",
+		   "mercury"
+		  ],
+		clues: ["No longer a officially considerd a planet",
+				 "Famous for its rings",
+				 "Takes approximately 365 days to rotate around the sun",
+				 "Closest planet to Earth",
+				 "The largest planet",
+				 "The farthest planet from the sun",
+				 "Coldest planet in the solar system",
+				 "Known as the 'Red Planet'",
+				 "Closest planet to the sun"]
+},
 ];
 
 var createrandom = function () {
@@ -105,15 +141,56 @@ var createrandom = function () {
 }
 
 var random = createrandom();
-random=2;
+
 var grid = grid_arr[random].grid;
 var clues = grid_arr[random].clues;
 var answers = grid_arr[random].ans;
 
-console.log(JSON.stringify(grid));
+var girdwidth = grid[0].length;
+var girdheight = grid.length;
+var gridsize = {
+	width: girdwidth ? girdwidth : 0,
+	height: girdheight ? girdheight : 0
+}
+
+
+for (var i = 0; i < gridsize.height; i++) {
+	var row = $('<tr/>');
+	for (var j = 0; j < gridsize.width; j++) {
+
+		if (grid[i][j] === "0") {
+			var col = $('<td class="square empty"></td>').appendTo(row);
+		} else {
+			var question_number = String(grid[i][j]).split(",");
+			var starting_number = "";
+			var question_number_span = "";
+			for (var k = 0; k < question_number.length; k++) {
+				var direction = get_direction(question_number[k]);
+				var startpos = get_startpos(question_number[k], direction);
+				if (direction == "horizontal" && startpos[0] == i && startpos[1] == j) {
+					starting_number += question_number[k] + ",";
+				} else if (direction == "vertical" && startpos[0] == j && startpos[1] == i) {
+					starting_number += question_number[k] + ",";
+				}
+			}
+			if (starting_number != "") {
+				question_number_span = '<span class="question_number">' + starting_number.replace(/(^,)|(,$)/g, "") + '</span>';
+			}
+			var col = '<td>' + question_number_span + '<div class="square letter" data-number="' + grid[i][j] + '" id="row_' + i + '_col_' + j + '" contenteditable="true" onkeyup="cursorNextFocus(' + i + ',' + j + ')"></div></td>';
+			$(row).append(col);
+		}
+
+	}
+	$('#puzzle').append(row);
+}
+
+
+
+
+/*
 $.each(grid, function (i) {
 	var row = $('<tr></tr>');
-	$.each(this, function (j) {
+	$.each(this, function (j) {	
 		if (this == 0) {
 			$(row).append('<td class="square empty"></td>');
 		} else {
@@ -143,7 +220,7 @@ $.each(grid, function (i) {
 	});
 	$("#puzzle").append(row);
 });
-
+*/
 //Draw hints
 var vertical_hints = $('<div id="vertical_hints"></div>');
 var horizontal_hints = $('<div id="horizontal_hints"></div>');
@@ -320,10 +397,21 @@ function showClue(question_number, i, j) {
 	var direction = get_direction(question_number);
 	var startpos = get_startpos(question_number, direction);
 	var answer_letters = question_answer.split("");
-
 	if (direction == "horizontal") {
 		$("#puzzle tr:nth-child(" + (j + 1) + ") td:nth-child(" + (i + 1) + ") div").text(answer_letters[i - startpos[1]]).css("color", "initial");
 	} else if (direction == "vertical") {
 		$("#puzzle tr:nth-child(" + (j + 1) + ") td:nth-child(" + (i + 1) + ") div").text(answer_letters[j - startpos[1]]).css("color", "initial");
 	}
+}
+
+function cursorNextFocus(i, j) {	
+	var question_numbers = String($("#row_" + i + "_col_" + j).data('number')).split(",");
+	$.each(question_numbers, function () {
+		var direction = get_direction(this);		
+		if (direction == "horizontal") {
+			$("#puzzle tr:nth-child("+(i+1)+") td:nth-child("+(j+2)+") div" ).focus().css("color","initial");
+		} else if (direction == "vertical") {			
+			$("#puzzle tr:nth-child("+(i+2)+") td:nth("+(j)+") div").focus().css("color","initial");			
+		}
+	});
 }
